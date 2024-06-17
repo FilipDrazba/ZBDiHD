@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="nb_mushroom_discretized" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="class">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.4508189136670677 0.5491810863329324</probabilities>
+		</cpt>
+		<cpt id="cap_diameter">
+			<state id="capd_below_180" />
+			<state id="capd_180_480" />
+			<state id="capd_480_825" />
+			<state id="capd_825_1200" />
+			<state id="capd_1200_1550" />
+			<state id="capd_1550_up" />
+			<parents>class</parents>
+			<probabilities>0.08251231527093596 0.2867405582922825 0.3657224958949097 0.2001231527093596 0.04807060755336617 0.01683087027914614 0.1729064869418703 0.3623588879528222 0.2910530749789385 0.123100252737995 0.03659646166807077 0.01398483572030329</probabilities>
+		</cpt>
+		<cpt id="cap_shape">
+			<state id="State0" />
+			<state id="State1" />
+			<state id="State2" />
+			<state id="State3" />
+			<state id="State4" />
+			<state id="State5" />
+			<state id="State6" />
+			<parents>class</parents>
+			<probabilities>0.05164203612479475 0.03177339901477833 0.2429392446633826 0.01330049261083744 0.03669950738916256 0.1279556650246305 0.4956896551724138 0.1352990732940185 0.03194608256107835 0.2148609941027801 0.08276326874473462 0.0271609098567818 0.1271103622577928 0.3808593091828138</probabilities>
+		</cpt>
+		<cpt id="gill_attachment">
+			<state id="State0" />
+			<state id="State1" />
+			<state id="State2" />
+			<state id="State3" />
+			<state id="State4" />
+			<state id="State5" />
+			<state id="State6" />
+			<parents>class</parents>
+			<probabilities>0.3231527093596059 0.1674876847290641 0.1107553366174056 0.04527914614121511 0.1360837438423645 0.1013136288998358 0.115927750410509 0.3886436394271272 0.2003706823925863 0.05984835720303286 0.06534119629317607 0.04987363100252738 0.09516427969671441 0.1407582139848357</probabilities>
+		</cpt>
+		<cpt id="gill_color">
+			<state id="State0" />
+			<state id="State1" />
+			<state id="State2" />
+			<state id="State3" />
+			<state id="State4" />
+			<state id="State5" />
+			<state id="State6" />
+			<state id="State7" />
+			<state id="State8" />
+			<state id="State9" />
+			<state id="State10" />
+			<state id="State11" />
+			<parents>class</parents>
+			<probabilities>0.02914614121510673 0.01145320197044335 0.04527914614121511 0.08555008210180624 0.03284072249589491 0.09987684729064039 0.05020525451559935 0.08940886699507389 0.02179802955665025 0.01798029556650246 0.3784072249589491 0.1380541871921182 0.008188711036225779 0.02628475147430497 0.06534119629317607 0.05941027801179444 0.03275484414490312 0.1927885425442291 0.05024431339511373 0.1104296545914069 0.02493681550126369 0.01971356360572873 0.2464363942712721 0.1634709351305813</probabilities>
+		</cpt>
+		<cpt id="stem_height">
+			<state id="stemh1_below_024" />
+			<state id="stemh2_024_078" />
+			<state id="stemh3_078_156" />
+			<state id="stemh4_156_193" />
+			<state id="stemh5_193_211" />
+			<state id="stemh6_211_up" />
+			<parents>class</parents>
+			<probabilities>0.2771756978653531 0.4392036124794745 0.2199507389162562 0.02179802955665025 0.007142857142857144 0.03472906403940887 0.1803201347935973 0.3541027801179444 0.3103285593934288 0.05711878685762426 0.05590564448188711 0.04222409435551811</probabilities>
+		</cpt>
+		<cpt id="stem_width">
+			<state id="stemw_below_135" />
+			<state id="stemw_135_400" />
+			<state id="stemw_400_825" />
+			<state id="stemw_825_1075" />
+			<state id="stemw_1075_1450" />
+			<state id="stemw_1450_1850" />
+			<state id="stemw_1850_up" />
+			<parents>class</parents>
+			<probabilities>0.04819376026272578 0.1082512315270936 0.1805418719211823 0.1243021346469622 0.184072249589491 0.1605911330049261 0.1940476190476191 0.1091154170176917 0.2012131423757371 0.2597472620050548 0.06402695871946083 0.1555855096882898 0.1013647851727043 0.1089469250210615</probabilities>
+		</cpt>
+		<cpt id="stem_color">
+			<state id="State0" />
+			<state id="State1" />
+			<state id="State2" />
+			<state id="State3" />
+			<state id="State4" />
+			<state id="State5" />
+			<state id="State6" />
+			<state id="State7" />
+			<state id="State8" />
+			<state id="State9" />
+			<state id="State10" />
+			<state id="State11" />
+			<state id="State12" />
+			<parents>class</parents>
+			<probabilities>0.007104672348299457 0.02208763692282431 3.157632154799759e-06 0.0654356111439154 3.157632154799759e-06 0.004313325523456471 0.2371034408717591 0.03522338668679131 0.005421654409791185 0.004682768485568043 0.02188239083276233 0.4943588901554503 0.1023799073550726 2.592097214013914e-06 0.04650481611662364 0.03568799444254357 0.03477816832042468 0.0194122160357502 0.004079961014857901 0.3214744885792197 0.03336288324157309 0.03009424865470154 0.01439132373220525 0.02898223894988958 0.2788137526309787 0.1524153161840182</probabilities>
+		</cpt>
+		<cpt id="season">
+			<state id="season1" />
+			<state id="season2" />
+			<state id="season3" />
+			<state id="season4" />
+			<parents>class</parents>
+			<probabilities>0.05073891625615764 0.3457717569786535 0.4846469622331692 0.1188423645320197 0.03312552653748947 0.403167649536647 0.5190901432181971 0.04461668070766639</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 4.1.4109.0 ACADEMIC" name="nb_mushroom_discretized">
+			<node id="cap_diameter">
+				<name>cap-diameter</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>228 82 300 130</position>
+			</node>
+			<node id="cap_shape">
+				<name>cap-shape</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>206 143 278 191</position>
+			</node>
+			<node id="gill_attachment">
+				<name>gill-attachment</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>126 160 198 208</position>
+			</node>
+			<node id="gill_color">
+				<name>gill-color</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>43 145 115 193</position>
+			</node>
+			<node id="stem_height">
+				<name>stem-height</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 82 82 130</position>
+			</node>
+			<node id="stem_width">
+				<name>stem-width</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>42 31 114 79</position>
+			</node>
+			<node id="stem_color">
+				<name>stem-color</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>119 10 191 58</position>
+			</node>
+			<node id="season">
+				<name>season</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>196 31 268 79</position>
+			</node>
+			<node id="class">
+				<name>class</name>
+				<interior color="ffff80" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>119 82 191 130</position>
+			</node>
+			<textbox>
+				<caption>Input file: mushroom_discretized.gdat\nData rows: 54035\nElapsed time: 0.079s\n\nLearning algorithm: Naive Bayes\nAlgorithm parameters:\nClass variable: class\n\nEM Log Likelihood: -729245</caption>
+				<font color="000000" name="Arial" size="8" align="right" />
+				<position>323 13 502 139</position>
+			</textbox>
+		</genie>
+	</extensions>
+</smile>
